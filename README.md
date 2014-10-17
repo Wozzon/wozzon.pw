@@ -1,3 +1,3 @@
-wozzon.github.io
-================
-Repository of my github hosted website! ;)
+﻿wozzon.pw
+===============
+Repository of my personal HostGator hosted website.
