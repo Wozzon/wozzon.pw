@@ -49,7 +49,7 @@
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #04b666;
 }
 
 .floating-label-form-group input,
@@ -116,15 +116,15 @@ form .row:first-child .floating-label-form-group {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(44, 62, 80, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #04b666;
-  opacity: 60%;
+  color: #6c6c6c;
   font-family: 'Roboto', sans-serif;
 }
 .form-control:-ms-input-placeholder {
-  color: #04b666;
+  color: #6c6c6c;
 }
 .form-control::-webkit-input-placeholder {
-  color: #04b666;
+  color: #6c6c6c;
+  opacity: 60%;
 }
 .form-control[disabled],
 .form-control[readonly],

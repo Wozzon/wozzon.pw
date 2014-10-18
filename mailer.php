@@ -32,7 +32,7 @@ $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: index.html');
+header('Location: thanks.html');
 exit();
 
 /* Functions we used */
@@ -48,19 +48,8 @@ show_error($problem);
 return $data;
 }
 
-function show_error($myError)
-{
-?>
-<html>
-<body>
-
-<p>Please correct the following error:</p>
-<strong><?php echo $myError; ?></strong>
-<p>Hit the back button and try again</p>
-
-</body>
-</html>
-<?php
-exit();
+function show_error($myError) {
+echo "<script type='text/javascript'>alert('Real email is required! I cannot answer without..);</script>";
 }
+exit();
 ?>
